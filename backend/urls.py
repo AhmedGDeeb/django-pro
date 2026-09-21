@@ -25,5 +25,6 @@ urlpatterns = [
     path('api/auth_basic/', include('api_auth_basic.urls')),
     path('api/auth_token/', include('api_auth_token.urls')),
     path('api/auth_session/', include('api_auth_session.urls')),
+    path('api/auth_jwt/', include('api_auth_jwt.urls')),
     #----------------------------------------------------------------
 ]
